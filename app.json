@@ -58,7 +58,6 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}\n\n╭─── • ❰ @sinhalafilmsgo ❱ • ────➤\n┣ ▫️ @sinhalaaaa \n┣╰─────── • ◆ • ───────➤",
             "required": false
         },
         "DATABASE_URL": {
