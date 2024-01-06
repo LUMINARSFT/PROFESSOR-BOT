@@ -1,38 +1,60 @@
 class script(object):  
-    START_TXT = """<b>✨ ආයුබෝවන් {user} !.
+    START_TXT = """<b>✨ Hᴇʟʟᴏ {user}.
 
 Mʏ Nᴀᴍᴇ Is {bot}.
 
-I Cᴀɴ Pʀᴏᴠɪᴅᴇ Sinhala Dubbed Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ</b>"""
+I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ</b>"""
     
     HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
 
     ABOUT_TXT = """<b>✯ Mʏ ɴᴀᴍᴇ: {}
-✯ Redisgned: <a herf=https://t.me/sinhalafilmsgo>InFIne Devs ❤</a>
-✯ Cᴏᴅᴇᴅ Oɴ: ᴩʏᴛʜᴏɴ/ᴩʏʀᴏɢʀᴀᴍ 🐍
-✯ Mʏ DᴀᴛᴀBᴀꜱᴇ: ᴍᴏɴɢᴏ-ᴅʙ ☘
-✯ Mʏ Sᴇʀᴠᴇʀ: At home 😉
-✯ Mʏ Vᴇʀꜱɪᴏɴ: SLMN Sinhala Dubbed Movie Bot > Revision 3.0</b>"""
+✯ Dᴇᴠᴇʟᴏᴩᴇʀ: <a herf=https://t.me/Mr_MKN>ᴍʀ.ᴍᴋɴ ᴛɢ</a>
+✯ Cᴏᴅᴇᴅ Oɴ: ᴩʏᴛʜᴏɴ/ᴩʏʀᴏɢʀᴀᴍ
+✯ Mʏ DᴀᴛᴀBᴀꜱᴇ: ᴍᴏɴɢᴏ-ᴅʙ
+✯ Mʏ Sᴇʀᴠᴇʀ: ᴀɴʏᴡʜᴇʀᴇ
+✯ Mʏ Vᴇʀꜱɪᴏɴ: ᴩʀᴏꜰᴇꜱꜱᴏʀ-ʙᴏᴛ ᴠ4.5.0</b>"""
    
     SOURCE_TXT = """<b>NOTE:</b>
-- Join Main Group ◉› :<a href=https://t.me/sinhalafilmsgo>SL Media Network</a>
+- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://github.com/MrMKN/PROFESSOR-BOT>𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑-𝐁𝐎𝐓</a>
 
-<b>Redesigned: <a herf=https://t.me/sinhalafilmsgo>InFIne Devs</a></b>"""
+<b>ᴅᴇᴠ: <a herf=https://t.me/Mr_MKN>ᴍʀ.ᴍᴋɴ ᴛɢ</a></b>"""
 
     FILE_TXT = """<b>➤ Hᴇʟᴘ Fᴏʀ Fɪʟᴇ Sᴛᴏʀᴇ</b>
 
+<i>Bʏ Usɪɴɢ Tʜɪs Mᴏᴅᴜʟᴇ Yᴏᴜ Cᴀɴ Sᴛᴏʀᴇ Fɪʟᴇs Iɴ Mʏ Dᴀᴛᴀʙᴀsᴇ Aɴᴅ I Wɪʟʟ Gɪᴠᴇ Yᴏᴜ A Pᴇʀᴍᴀɴᴇɴᴛ Lɪɴᴋ  Tᴏ Aᴄᴄᴇss Tʜᴇ Sᴀᴠᴇᴅ Fɪʟᴇs. Iғ Yᴏᴜ Wᴀɴᴛ Tᴏ Aᴅᴅ Fɪʟᴇs Fʀᴏᴍ A Pᴜʙʟɪᴄ Cʜᴀɴɴᴇʟ Sᴇɴᴅ Tʜᴇ Fɪʟᴇ Lɪɴᴋ Oɴʟʏ  Oʀ Yᴏᴜ Wᴀɴᴛ Tᴏ Aᴅᴅ Fɪʟᴇs Fʀᴏᴍ A  Pʀɪᴠᴀᴛᴇ Cʜᴀɴɴᴇʟ Yᴏᴜʀ Mᴜsᴛ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ Oɴ Tʜᴇ Cʜᴀɴɴᴇʟ Tᴏ Aᴄᴄᴇss Fɪʟᴇs</i>
+
+<b>⪼ Cᴏᴍᴍᴀɴᴅ & Usᴀɢᴇ</b>
+➪ /link › Rᴇᴘʟʏ Tᴏ Aɴʏ Mᴇᴅɪᴀ Tᴏ Gᴇᴛ Tʜᴇ Lɪɴᴋ 
+➪ /batch › Tᴏ Cʀᴇᴀᴛᴇ Lɪɴᴋ Fᴏʀ Mᴜʟᴛɪᴘʟᴇ Mᴇᴅɪᴀ
+
+<b>⪼ EG:</b>
+</code>/batch https://t.me/mkn_bots_updates/1 https://t.me/mkn_bots_updates/10</code>"""
+  
     FILTER_TXT = "Sᴇʟᴇᴄᴛ Wʜɪᴄʜ Oɴᴇ Yᴏᴜ Wᴀɴᴛ...✨"
     
-    GLOBALFILTER_TXT = """<b>Disabled By Admins</b>"""
+    GLOBALFILTER_TXT = """<b>Hᴇʟᴘ Fᴏʀ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs</b>
+
+<i>Fɪʟᴛᴇʀ Is Tʜᴇ Fᴇᴀᴛᴜʀᴇ Wᴇʀᴇ Usᴇʀs Cᴀɴ Sᴇᴛ Aᴜᴛᴏᴍᴀᴛᴇᴅ Rᴇᴘʟɪᴇs Fᴏʀ A Pᴀʀᴛɪᴄᴜʟᴀʀ Kᴇʏᴡᴏʀᴅ Aɴᴅ Bᴏᴛ  Wɪʟʟ Rᴇsᴘᴏɴᴅ Wʜᴇɴᴇᴠᴇʀ A Kᴇʏᴡᴏʀᴅ Is Fᴏᴜɴᴅ Tʜᴇ Mᴇssᴀɢᴇ</i>
+
+<b>Nᴏᴛᴇ:</b>
+Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
+
+<b>Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:</b>
+• /gfilter - Tᴏ Aᴅᴅ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs
+• /gfilters - Tᴏ Vɪᴇᴡ Lɪsᴛ Oғ Aʟʟ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs
+• /delg - Tᴏ Dᴇʟᴇᴛᴇ A Sᴘᴇᴄɪғɪᴄ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀ
+• /delallg - Tᴏ Dᴇʟᴇᴛᴇ Aʟʟ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀꜱ
+
+• /g_filter off Usᴇ Tʜɪs Cᴏᴍᴍᴏᴀɴᴅ + on/offғ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Tᴏ Cᴏɴᴛʀᴏʟ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ"""
 
     MANUELFILTER_TXT = """<b>Hᴇʟᴘ Fᴏʀ Fɪʟᴛᴇʀs</b>
 
 <i>Fɪʟᴛᴇʀ Is Tʜᴇ Fᴇᴀᴛᴜʀᴇ Wᴇʀᴇ Usᴇʀs Cᴀɴ Sᴇᴛ Aᴜᴛᴏᴍᴀᴛᴇᴅ Rᴇᴘʟɪᴇs Fᴏʀ A Pᴀʀᴛɪᴄᴜʟᴀʀ Kᴇʏᴡᴏʀᴅ Aɴᴅ Bᴏᴛ  Wɪʟʟ Rᴇsᴘᴏɴᴅ Wʜᴇɴᴇᴠᴇʀ A Kᴇʏᴡᴏʀᴅ Is Fᴏᴜɴᴅ Tʜᴇ Mᴇssᴀɢᴇ</i>
 
 <b>Nᴏᴛᴇ:</b>
-1. Tʜɪs Bᴏᴛ Sʜᴏᴜʟᴅ Hᴀᴠᴇ Aᴅᴍɪɴ Pʀɪᴠɪʟʟᴀɢᴇ.
-2. Oɴʟʏ Aᴅᴍɪɴs Cᴀɴ Aᴅᴅ Fɪʟᴛᴇʀs Iɴ A Cʜᴀᴛ.
-3. Aʟᴇʀᴛ Bᴜᴛᴛᴏɴs Hᴀᴠᴇ A Lɪᴍɪᴛ Oғ 𝟼𝟺 Cʜᴀʀᴀᴄᴛᴇʀs.
+𝟷. Tʜɪs Bᴏᴛ Sʜᴏᴜʟᴅ Hᴀᴠᴇ Aᴅᴍɪɴ Pʀɪᴠɪʟʟᴀɢᴇ.
+𝟸. Oɴʟʏ Aᴅᴍɪɴs Cᴀɴ Aᴅᴅ Fɪʟᴛᴇʀs Iɴ A Cʜᴀᴛ.
+𝟹. Aʟᴇʀᴛ Bᴜᴛᴛᴏɴs Hᴀᴠᴇ A Lɪᴍɪᴛ Oғ 𝟼𝟺 Cʜᴀʀᴀᴄᴛᴇʀs.
 
 <b>Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:</b>
 • /filter - Aᴅᴅ A Fɪʟᴛᴇʀ Iɴ Cʜᴀᴛ
@@ -128,10 +150,42 @@ I Cᴀɴ Pʀᴏᴠɪᴅᴇ Sinhala Dubbed Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ A
 
 ◉ ʙʏ: @{}</b>"""
   
-    GROUPMANAGER_TXT = """<b>❗ Error : Disabled By Admins</b>"""
+    GROUPMANAGER_TXT = """<b>Hᴇʟᴩ Fᴏʀ GʀᴏᴜᴩMᴀɴᴀɢᴇʀ</b>
 
-    EXTRAMOD_TXT = """<b>❗ Disabled By Admins</b>"""    
-    
+<i>Tʜɪꜱ Iꜱ Hᴇʟᴩ Oꜰ Yᴏᴜʀ Gʀᴏᴜᴩ Mᴀɴᴀɢɪɴɢ. Tʜɪꜱ Wɪʟʟ Wᴏʀᴋ Oɴʟʏ Fᴏʀ Gʀᴏᴜᴩ aᴅᴍɪɴꜱ</i>
+
+<b>Cᴏᴍᴍᴀɴᴅ & Uꜱᴀɢᴇ:</b>
+• /inkick - Cᴏᴍᴍᴀɴᴅ Wɪᴛʜ Rᴇǫᴜɪʀᴇᴅ Aʀɢᴜᴍᴇɴᴛs Aɴᴅ I Wɪʟʟ Kɪᴄᴋ Mᴇᴍʙᴇʀs Fʀᴏᴍ Gʀᴏᴜᴘ.
+• /instatus - Tᴏ Cʜᴇᴄᴋ Cᴜʀʀᴇɴᴛ Sᴛᴀᴛᴜs Oғ Cʜᴀᴛ Mᴇᴍʙᴇʀ Fʀᴏᴍ Gʀᴏᴜᴘ.
+• /dkick - Tᴏ Kɪᴄᴋ Dᴇʟᴇᴛᴇᴅ Aᴄᴄᴏᴜɴᴛs
+• /ban - To Bᴀɴ A Uꜱᴇʀ Fᴏʀᴍ Tʜᴇ Gʀᴏᴜᴩ
+• /unban - Uɴʙᴀɴ Tʜᴇ Bᴀɴɴᴇᴅ Uꜱᴇʀ
+• /tban - Tᴇᴍᴩᴏʀᴀʀʏ Bᴀɴ A Uꜱᴇʀ
+• /mute - To Mᴜᴛᴇ A Uꜱᴇʀ
+• /unmute - To Uɴᴍᴜᴛᴇ Tʜᴇ Mᴜᴛᴇᴅ Uꜱᴇʀ
+• /tmute - Wɪᴛʜ Vᴀʟᴜᴇ To Mᴜᴛᴇ Uᴩ To Pᴀʀᴛɪᴄᴜʟᴀʀ Tɪᴍᴇ Eɢ: <code>/tmute 2h</code> To Mᴜᴛᴇ 2Hᴏᴜʀ Vᴀʟᴜᴇꜱ Iꜱ (m/h/d)
+• /pin - Tᴏ Pɪɴ A Mᴇꜱꜱᴀɢᴇ Oɴ Yᴏᴜʀ Cʜᴀᴛ
+• /unpin - Tᴏ Uɴᴩɪɴ Tʜᴇ Mᴇꜱꜱᴀɢᴇ Oɴ Yᴏᴜʀ Cʜᴀᴛ
+• /purge - Dᴇʟᴇᴛᴇ Aʟʟ Mᴇssᴀɢᴇs Fʀᴏᴍ Tʜᴇ Rᴇᴘʟɪᴇᴅ Tᴏ Mᴇssᴀɢᴇ, Tᴏ Tʜᴇ Cᴜʀʀᴇɴᴛ Mᴇssᴀɢᴇ """
+
+    EXTRAMOD_TXT = """<b>Hᴇʟᴩ Fᴏʀ Exᴛʀᴀ Mᴏᴅᴜʟᴇ</b>
+
+<i>Jᴜꜱᴛ Sᴇɴᴅ Aɴʏ Iᴍᴀɢᴇ Tᴏ Eᴅɪᴛ Iᴍᴀɢᴇ ✨</i>
+
+<b>Cᴏᴍᴍᴀɴᴅꜱ & Uꜱᴀɢᴇ:</b>
+• /id - Gᴇᴛ Iᴅ Oғ A Sᴘᴇᴄɪғᴇᴅ Usᴇʀ
+• /info  - Gᴇᴛ Iɴғᴏʀᴍᴀᴛɪᴏɴ Aʙᴏᴜᴛ A Usᴇʀ
+• /imdb  - Gᴇᴛ Tʜᴇ Fɪʟᴍ Iɴғᴏʀᴍᴀᴛɪᴏɴ Fʀᴏᴍ Iᴍᴅʙ Sᴏᴜʀᴄᴇ
+• /paste [ᴛᴇxᴛ] - Pᴀsᴛᴇ Tʜᴇ Gɪᴠᴇɴ Tᴇxᴛ Oɴ Pᴀsᴛʏ
+• /tts [ᴛᴇxᴛ] - Cᴏɴᴠᴇʀᴛ Tᴇxᴛ Tᴏ Sᴘᴇᴇᴄʜ
+• /telegraph - Sᴇɴᴅ Mᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Rᴇᴘʟʏ Wɪᴛʜ Pɪᴄᴛᴜʀᴇ Oʀ Vɪᴅᴇ Uɴᴅᴇʀ (𝟻ᴍʙ)
+• /json - Rᴇᴩʟʏ Wɪᴛʜ Aɴʏ Mᴇꜱꜱᴀɢᴇ Tᴏ Gᴇᴛ Mᴇꜱꜱᴀɢᴇ Iɴꜰᴏ (ᴜꜱᴇꜰᴜʟʟ ꜰᴏʀ ɢʀᴏᴜᴩ)
+• /written - Rᴇᴩʟʏ Wɪᴛʜ Tᴇxᴛ Tᴏ Gᴇᴛ Fɪʟᴇ (ᴜꜱᴇꜰᴜʟʟ ꜰᴏʀ ᴄᴏᴅᴇʀꜱ)
+• /carbon - Rᴇᴘʟʏ Wɪᴛʜ Tᴇxᴛ Tᴏ Gᴇᴛ Cᴀʀʙᴏɴᴀᴛᴇᴅ Iᴍᴀɢᴇ
+• /font [ᴛᴇxᴛ] - Tᴏ Cʜᴀɴɢᴇ Yᴏᴜʀ Tᴇxᴛ Fᴏɴᴛs Tᴏ Fᴀɴᴄʏ Fᴏɴᴛ
+• /share - Rᴇᴘʟʏ Wɪᴛʜ Tᴇxᴛ Tᴏ Gᴇᴛ Tᴇxᴛ Sʜᴀʀᴀʙʟᴇ Lɪɴᴋ
+• /song [ɴᴀᴍᴇ] - Tᴏ Sᴇᴀʀᴄʜ Tʜᴇ Sᴏɴɢ Iɴ YᴏᴜTᴜʙᴇ
+• /video [ʟɪɴᴋ] - Tᴏ Dᴏᴡɴʟᴏᴀᴅ Tʜᴇ YᴏᴜTᴜʙᴇ Vɪᴅᴇᴏ"""    
     
     CREATOR_REQUIRED = "❗<b>Yᴏᴜ Hᴀᴠᴇ To Bᴇ Tʜᴇ Gʀᴏᴜᴩ Cʀᴇᴀᴛᴏʀ Tᴏ Dᴏ Tʜᴀᴛ</b>"
       
@@ -156,13 +210,15 @@ Tᴏᴛᴀʟ Dɪꜱᴋ: {}
 Uꜱᴇᴅ Dɪꜱᴋ: {} ({}%)
 Fʀᴇᴇ Dɪꜱᴋ: {}"""
     
-    BUTTON_LOCK_TEXT = "මේක ඔයා search කරපු එකක් නෙවේ. ඔයාම search කරල ගන්න​ 😊"
+    BUTTON_LOCK_TEXT = "Hᴇʏ {query}\nTʜɪꜱ Iꜱ Nᴏᴛ Fᴏʀ Yᴏᴜ. Sᴇᴀʀᴄʜ Yᴏᴜʀ Sᴇʟꜰ"
    
-    FORCE_SUB_TEXT = "Sorry...ඔයා අපේ ප්‍රධාන චැනල් එකට (@sinhalafilmsgo / @sinhalaaaa ) Join වෙලා නැත්නම් මේ Bot භාවිතා කරන්න බෑ ! 🤦‍♀️"
+    FORCE_SUB_TEXT = "Sᴏʀʀʏ Bʀᴏ Yᴏᴜʀ Nᴏᴛ Jᴏɪɴᴇᴅ Mʏ Cʜᴀɴɴᴇʟ Sᴏ Pʟᴇᴀsᴇ Cʟɪᴄᴋ Jᴏɪɴ Bᴜᴛᴛᴏɴ Tᴏ Jᴏɪɴ Mʏ Cʜᴀɴɴᴇʟ Aɴᴅ Tʀʏ Aɢᴀɪɴ"
    
-    WELCOM_TEXT = """ආයුබෝවන් {user} 💞
+    WELCOM_TEXT = """Hᴇʏ {user} 💞
 
-Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}."""
+Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.
+
+ꜱʜᴀʀᴇ & ꜱᴜᴩᴩᴏʀᴛ, ʀᴇqᴜᴇꜱᴛ ʏᴏᴜ ᴡᴀɴᴛᴇᴅ ᴍᴏᴠɪᴇꜱ"""
   
     IMDB_TEMPLATE = """<b>Qᴜᴇʀʏ: {query}</b>
 
