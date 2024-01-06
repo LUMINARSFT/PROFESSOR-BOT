@@ -23,7 +23,7 @@ I Cᴀɴ Pʀᴏᴠɪᴅᴇ Sinhala Dubbed Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ A
 
     FILTER_TXT = "Sᴇʟᴇᴄᴛ Wʜɪᴄʜ Oɴᴇ Yᴏᴜ Wᴀɴᴛ...✨"
     
-    GLOBALFILTER_TXT = """<b>❗ Disabled By Admins</b>"""
+    GLOBALFILTER_TXT = """<b>Disabled By Admins</b>"""
 
     MANUELFILTER_TXT = """<b>Hᴇʟᴘ Fᴏʀ Fɪʟᴛᴇʀs</b>
 
