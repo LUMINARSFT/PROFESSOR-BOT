@@ -260,7 +260,7 @@ async def auto_filter(client, msg, spoll=False):
             release_date = imdb['release_date'],
             year = imdb['year'],
             genres = imdb['genres'],
-            poster = imdb['poster'],
+            poster = "https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/283466746_5030640206972374_7466013949602750343_n.jpg?stp=dst-jpg_s960x960&_nc_cat=110&ccb=1-7&_nc_sid=783fdb&_nc_ohc=6dHsIYUqG78AX8HutSr&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfC8wqWua1fSeKrmrBZh8T-nWFAsZVjDZDRg3HqOGwAVTA&oe=659DDBD5",
             plot = imdb['plot'],
             rating = imdb['rating'],
             url = imdb['url'],
