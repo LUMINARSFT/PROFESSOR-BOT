@@ -141,7 +141,7 @@ async def advantage_spoll_choker(bot, query):
         return await query.message.delete()
     movies = temp.GP_SPELL.get(query.message.reply_to_message.id)
     if not movies:
-        return await query.answer("කරුණාකර​ නැවතත් ඔබේ ඉල්ලීම message එකක් ලෙස ඉදිරිපත් කරන්න!​", show_alert=True)
+        return await query.answer("Yᴏᴜ Aʀᴇ Usɪɴɢ Oɴᴇ Oғ Mʏ Oʟᴅ Mᴇssᴀɢᴇs, Pʟᴇᴀsᴇ Sᴇɴᴅ Tʜᴇ Rᴇǫᴜᴇsᴛ Aɢᴀɪɴ", show_alert=True)
     movie = movies[(int(movie_))]
     await query.answer('Checking for Movie in database...')
     k = await manual_filters(bot, query.message, text=movie)
@@ -151,8 +151,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('මේ මූවී එක මගෙ database එකේ නෑ. 
-⚠ වැදගත් : චිත්‍රපටයේ මුලු නමම දැමීමෙන් චිත්‍රපටය සෙවීමට අපහසුය​. එමනිසා නමේ කොටසක් ( උදා : Harry , Cars ) පමණක් දමා නැවත උත්‍සාහ කරන්න​.')
+            k = await query.message.edit('This Movie Not Found In DataBase')
             await asyncio.sleep(10)
             await k.delete()
 
